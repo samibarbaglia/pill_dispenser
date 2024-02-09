@@ -1,6 +1,6 @@
 # Pill dispenser
 <p>Project for "Embedded Systems Programming" course</p>
-<b>Programming language: C</b>
+<p><b>Programming language:</b> C</p>
 <p><b>Hardware:</b> Rasperry Pi Pico and SDK, Optical fork for calculating a full turn by detecting light, Piezo sensor for detecting a dispensed pill by weight (aka press against the sensor), Raspberry Pi Debugger</p>
 
 <p>Short overview:</p>

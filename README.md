@@ -1,7 +1,7 @@
 # Pill dispenser
 <p>Project for "Embedded Systems Programming" course</p>
 <b>Programming language: C</b>
-<b></p>Hardware: Rasperry Pi Pico and SDK, Optical fork for calculating a full turn by detecting light, Piezo sensor for detecting a dispensed pill by weight (aka press against the sensor), Raspberry Pi Debugger</b>
+<p><b>Hardware: Rasperry Pi Pico and SDK, Optical fork for calculating a full turn by detecting light, Piezo sensor for detecting a dispensed pill by weight (aka press against the sensor), Raspberry Pi Debugger</b></p>
 
 <p>Short overview:</p>
 When the program is turned on, it will blink a LED until the user presses the calibration button. The dispencing wheel will turn until light is detected and then turn a full round to secure the calibration.

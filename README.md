@@ -1,10 +1,10 @@
 ## 🌐 Pill Dispenser Project
-Project for `Embedded Systems Programming` course by Sami Barbaglia, Milja Hotanen, and Lucas Lamponen.
+This system was made as a final project for `Embedded Systems Programming`-course by Sami Barbaglia, Milja Hotanen, and Lucas Lamponen. 
+The system integrates **Raspberry Pi Pico WH**, an **optical fork sensor**, and a **piezoelectric sensor**, as well as a dispenser wheel (with eight slots) and a base.
 
-### 🔧 Hardware used
-- Raspberry Pi Pico WH (RP2040 processor),
-- Optical fork & piezoelectric sensors, 
-- Raspberry Pi Debug Prober
+The image below illustrates the hardware used, though it also shows an EEPROM and a LoRaWAN that were **not utilized in this project**.
+
+
 
 ### 🔗 Description
 <p>When the program is turned on, the Pico WH will blink a LED until the user presses the 'calibration' button. To find its starting place, the dispencer wheel will turn until light from a hole on the side of the wheel is detected. The wheel will be then turned around another full round until light is detected again to secure the calibration. The system will then wait for the user to press the 'dispencing' button.</p>

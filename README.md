@@ -1,13 +1,14 @@
 # Pill dispenser
 <p>Project for "Embedded Systems Programming" course by Sami Barbaglia, Milja Hotanen, Lucas Lamponen</p>
 <p><b>Programming language:</b> C</p>
-<p><b>Hardware:</b> Rasperry Pi Pico and SDK, Optical fork for calculating a full turn by detecting light, Piezo sensor for detecting a dispensed pill by weight (aka press against the sensor), Raspberry Pi Debugger</p>
+<p><b>Hardware:</b> Raspberry Pi Pico WH (RP2040 processor)
+- Optical fork & piezoelectric sensors
+- Raspberry Pi Debug Prober</p>
 
 <p><b>Short overview:</b></p>
-<p>When the program is turned on, it will blink a LED until the user presses the calibration button. The dispencing wheel will turn until light is detected and then turn a full round to secure the calibration.
-It will then wait for the user to press the dispencing button.</p>
+<p>When the program is turned on, the Pico WH will blink a LED until the user presses the 'calibration' button. To find its starting place, the dispencer wheel will turn until light from a hole on the side of the wheel is detected. The wheel will be then turned around another full round until light is detected again to secure the calibration. The system will then wait for the user to press the 'dispencing' button.</p>
 
-<p>When done so, the first pill is detected and the program prints either "DAY 1: Pill dispenced" or "DAY 1: NO PILL DETECTED". 
+<p>When done so, the wheel will be moirst pill is detected and the program prints either "DAY 1: Pill dispenced" or "DAY 1: NO PILL DETECTED". 
 If a pill is detected, the program will wait thirty seconds (for testing purposes, othervice 24 hours) to dispence the next one.
 If no pill is detected, the timer for thirty seconds will begin while the LED blinks five times as warning. </p>
 

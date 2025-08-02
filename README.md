@@ -2,7 +2,7 @@
 This system was made as a final project for `Embedded Systems Programming` course by Sami Barbaglia, Milja Hotanen, and Lucas Lamponen. 
 The system integrates **Raspberry Pi Pico WH**, an **optical fork sensor**, and a **piezoelectric sensor**, as well as a dispenser wheel (with eight slots) and a base.
 
-The image below illustrates the hardware used, though it also shows an EEPROM and a LoRaWAN that were **not utilized in this project**.
+The image below shows the hardware used, though it also shows an EEPROM and a LoRaWAN that were **not utilized in this project**.
 
 <img width="902" height="946" alt="Image" src="https://github.com/user-attachments/assets/5e46a228-2e44-4f5e-a846-cc04addd0b93" />
 

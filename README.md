@@ -4,7 +4,7 @@ The system integrates **Raspberry Pi Pico WH**, an **optical fork sensor**, and 
 
 The image below illustrates the hardware used, though it also shows an EEPROM and a LoRaWAN that were **not utilized in this project**.
 
-
+<img width="902" height="946" alt="Image" src="https://github.com/user-attachments/assets/5e46a228-2e44-4f5e-a846-cc04addd0b93" />
 
 ### 🔗 Description
 <p>When the program is turned on, the Pico WH will blink a LED until the user presses the 'calibration' button. To find its starting place, the dispencer wheel will turn until light from a hole on the side of the wheel is detected. The wheel will be then turned around another full round until light is detected again to secure the calibration. The system will then wait for the user to press the 'dispencing' button.</p>
